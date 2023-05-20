@@ -1,15 +1,23 @@
 {
   "name": "clean-node-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto do curso de TypeScript - Rodrigo Manguinho",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Stanley Dias Paulo",
   "license": "ISC",
   "devDependencies": {
-    "git-commit-msg-linter": "^5.0.4"
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "eslint": "^6.8.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "git-commit-msg-linter": "^5.0.4",
+    "typescript": "^5.0.4"
   }
 }
