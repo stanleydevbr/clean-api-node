@@ -1,4 +1,5 @@
 node_modules
 dist
+export
 .husky
 !package-lock.json
