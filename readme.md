@@ -6,6 +6,11 @@
     git config --global --edit
 ```
 
+[alias]
+  s = !git status -s
+  c = !git add --all && git commit -m
+  l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+
 ## Instalando e configurando as dependências do projeto
 ```node
     npm i -D git-commit-msg-linter
@@ -14,6 +19,8 @@
     npm i -D jest @types/jest ts-jest
     npm install --save-dev eslint@6 eslint-plugin-standard@4 eslint-plugin-promise@4 eslint-plugin-import@2 eslint-plugin-node@11 @typescript-eslint/eslint-plugin@2 eslint-config-standard-with-typescript
 ```
+
+
 ## Links de estudos: 
     https://node.green/#/ES2015
     https://github.com/standard/eslint-config-standard-with-typescript
